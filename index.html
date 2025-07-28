@@ -1,60 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <div class="header">
-        <div class="left-logo"><img src="" alt=""><h3>Header Logo</h3></div>
-        <ul class="right-links">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css" />
+    <title>Landing Page</title>
+  </head>
+
+  <body>
+    <div class="root-padding section-header">
+      <div class="hero-top">
+        <h3 class="header">Header Logo</h3>
+
+        <div class="nav-links">
+          <ul>
             <li>header link one</li>
             <li>header link two</li>
             <li>header link three</li>
-        </ul>
+          </ul>
+        </div>
+      </div>
+
+      <div class="hero-bottom">
+        <div class="left-side">
+          <p class="main-text">This website is awesome</p>
+          <p class="secondary-text">
+            This website has some subtext that goes here under the main title.
+            It's a smaller font and the color is lower contrast.
+          </p>
+          <button class="one">Sign Up</button>
+        </div>
+        <div class="right-side">
+          <img src="" alt="" />
+          <div>This is a place holder for an image</div>
+        </div>
+      </div>
     </div>
 
-    <div class="content">
-        <div class="section-1">
-            <div class="left-side">
-                <h1>This website is awesome</h1>
-                <h5>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</h5>
-            </div>
-            <button>Sign Up</button>
-            <img src="" alt="">
-        </div>
-
-        <div class="section-2">
-            <h1>Some random information.</h1>
-            <ul class="S2 Images">
-                <li><img src="" alt="">This is some subtext under an illustration or image</li>
-                <li><img src="" alt="">This is some subtext under an illustration or image</li>
-                <li><img src="" alt="">This is some subtext under an illustration or image</li>
-                <li><img src="" alt="">This is some subtext under an illustration or image</li>
-            </ul>
-        </div>
-
-        <div class="section-3">
-            <h2>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</h2>
-            <h4>- Thor, God of Thunder</h4>
-        </div>
-
-        <div class="section-4">
-            <div class="right-side">
-                <h3>Call to action! It's time!</h3>
-                <p>Sign up for our product by clicking that button right over there!</p>
-            </div>
-            <div class="left-side">
-                <button>Sign Up</button>
-            </div>
-        </div>
-
+    <div class="root-padding info-section"></div>
+    <div class="root-padding info-top">
+      <p class="section-2-top-text">Some random information.</p>
     </div>
-    
-    <div class="footer">
-        Copyright © The Odin Project 2021
+    <div class="root-padding info-cards">
+      <div class="card">
+        <div class="thumbnail">
+          <img src="" alt="" />
+        </div>
+        <div class="s2-text">
+          this is some subtext under an illustration or image
+        </div>
+      </div>
+      <div class="card">
+        <div class="thumbnail">
+          <img src="" alt="" />
+        </div>
+        <div class="s2-text">
+          this is some subtext under an illustration or image
+        </div>
+      </div>
+      <div class="card">
+        <div class="thumbnail">
+          <img src="" alt="" />
+        </div>
+        <div class="s2-text">
+          this is some subtext under an illustration or image
+        </div>
+      </div>
+      <div class="card">
+        <div class="thumbnail">
+          <img src="" alt="" />
+        </div>
+        <div class="s2-text">
+          this is some subtext under an illustration or image
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
