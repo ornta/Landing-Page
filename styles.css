@@ -77,10 +77,16 @@ ul {
 
 button {
     padding: 7px 30px;
-    background-color: #3882F6;
-    color: #F9FAF8;
     border-radius: 8px;
     margin-top: 10px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+button.button-outline {
+ background: transparent;
+ border: 1px solid white;
+ /* border-color: white; */
 }
 
 .one {
@@ -92,9 +98,7 @@ button {
 }
 
 .info-section {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
+    padding-bottom: 100px;
 }
 
 .info-top {
@@ -138,4 +142,44 @@ button {
     display: flex;
     color: gray;
     text-align: center;
+}
+
+.testimonial {
+    background-color: #E5E7EB;
+    padding: 100px 275px;
+}
+
+.quote-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    font-style: italic;
+    margin-bottom: 16px;
+}
+
+.signature {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.sign-up-section {
+    padding: 100px 175px;
+}
+
+.sign-up-flyer {
+    display: flex;
+    justify-content: space-between;
+    color: #F9FAF8;
+    padding: 50px;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.bottom-button {
 }
